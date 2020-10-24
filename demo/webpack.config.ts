@@ -66,7 +66,7 @@ export default (env: { playground?: boolean; bench?: boolean } = {}, { mode }) =
   devServer: {
     contentBase: __dirname,
     watchContentBase: true,
-    port: 9090,
+    port: 8080,
     disableHostCheck: true,
     stats: 'minimal',
   },
